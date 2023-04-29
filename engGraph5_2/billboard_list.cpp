@@ -18,7 +18,7 @@
 
 #include "util.h"
 #include "engine_common.h"
-#include "billboard_list.h"
+#include "bli"
 
 #define NUM_ROWS 10
 #define NUM_COLUMNS 10
