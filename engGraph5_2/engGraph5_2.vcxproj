@@ -19,19 +19,12 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="callbacks.h" />
-    <ClInclude Include="camera.h" />
-    <ClInclude Include="engine_common.h" />
-    <ClInclude Include="glut_backend.h" />
-    <ClInclude Include="lighting_technique.h" />
-    <ClInclude Include="math_3d.h" />
-    <ClInclude Include="mesh.h" />
-    <ClInclude Include="pipeline.h" />
-    <ClInclude Include="technique.h" />
-    <ClInclude Include="texture.h" />
-    <ClInclude Include="util.h" />
+    <None Include="Makefile" />
+    <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="billboard_list.cpp" />
+    <ClCompile Include="billboard_technique.cpp" />
     <ClCompile Include="camera.cpp" />
     <ClCompile Include="glut_backend.cpp" />
     <ClCompile Include="lighting_technique.cpp" />
@@ -43,8 +36,19 @@
     <ClCompile Include="texture.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Makefile" />
-    <None Include="packages.config" />
+    <ClInclude Include="billboard_list.h" />
+    <ClInclude Include="billboard_technique.h" />
+    <ClInclude Include="callbacks.h" />
+    <ClInclude Include="camera.h" />
+    <ClInclude Include="engine_common.h" />
+    <ClInclude Include="glut_backend.h" />
+    <ClInclude Include="lighting_technique.h" />
+    <ClInclude Include="math_3d.h" />
+    <ClInclude Include="mesh.h" />
+    <ClInclude Include="pipeline.h" />
+    <ClInclude Include="technique.h" />
+    <ClInclude Include="texture.h" />
+    <ClInclude Include="util.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
